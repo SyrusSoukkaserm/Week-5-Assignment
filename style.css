@@ -1,0 +1,14 @@
+#cursorCircle {
+    position: absolute;
+    display: inline-block;
+    border: 5px solid;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    left: 50%;
+    top: 50%;
+}
+
+#cursorCircle:hover { /*Be able to click on elements while the circle is following cursor*/
+    pointer-events:none;
+}
